@@ -563,7 +563,7 @@ function showProcessOptions() {
   
   const options = processOptions[scenarioKey];
   optionsContainer.innerHTML = options.map(opt => `
-    <div class="process-option" onclick="selectProcess('${opt.id}')">
+    <div class="process-option" onclick="selectProcess('${opt.id}', event)">
       <h4>${opt.name}</h4>
       <p>${opt.description}</p>
     </div>
@@ -573,14 +573,17 @@ function showProcessOptions() {
   processCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
-function selectProcess(processId) {
+function selectProcess(processId, e) {
   selectedProcess = processId;
   
   document.querySelectorAll('.process-option').forEach(opt => {
     opt.classList.remove('selected');
   });
-  event.target.closest('.process-option').classList.add('selected');
-  
+  // Use passed event, fall back to window.event for older browsers
+  const clickEvent = e || window.event;
+  if (clickEvent && clickEvent.target) {
+    clickEvent.target.closest('.process-option').classList.add('selected');
+  }
   document.getElementById('step3').classList.add('complete');
   
   setTimeout(evaluate, 300);
