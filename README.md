@@ -1,127 +1,84 @@
-# The Team Dynamics Puzzle
+# Team Dynamics Puzzle
 
-**The Team Dynamics Puzzle** is a lightweight, interactive demo designed to help leaders think differently about team composition.
+> Role balance is necessary. It is not sufficient.
 
-Instead of focusing on job titles or seniority, it explores how **role balance and context** shape team effectiveness.
+**The Team Dynamics Puzzle** is a lightweight, interactive demo designed to help leaders think differently about team composition. Instead of focusing on job titles or seniority, it explores how **role balance and context** shape team effectiveness.
 
-This tool is intentionally simple and reflective—built for individual leaders to experiment, learn, and question their assumptions.
+🎮 [Play it here](https://samirsaad786.github.io/Team-Dynamics/)
 
 ---
 
 ## What This Demo Does
 
-- Allows users to select **one scenario**  
-  (Innovation, Execution, or Crisis Management)
+- Allows you to select **one scenario** — Innovation, Execution, or Crisis Management
+- Prompts you to choose **three team roles** *(Plant, Implementer, Coordinator, Challenger, Completer)*
+- Evaluates whether the selected roles are a **strong fit**, **weak fit**, or **mismatch**
+- Explains *why* the combination works or doesn't
+- Highlights which roles were well-suited and which created friction
+- Encourages you to **reset and experiment again**
 
-- Prompts users to choose **three team roles**  
-  *(Plant, Implementer, Coordinator, Challenger, Completer)*
-
-- Evaluates whether the selected roles are a:
-  - **Strong fit**
-  - **Weak fit**
-  - **Mismatch**
-
-- Explains **why** the combination works or doesn’t
-
-- Highlights:
-  - Which roles were well-suited
-  - Which roles created friction
-
-- Encourages users to **reset and experiment again**
-
-> The goal is learning through iteration — not “winning.”
-
----
+The goal is learning through iteration — not winning.
 
 ## What This Demo Does *Not* Do
 
-- No team comparisons  
-- No facilitator or workshop mode  
-- No saving or sharing results  
-- No scoring, rankings, or personality labeling  
-- No predictive or diagnostic claims  
+- No team comparisons
+- No facilitator or workshop mode
+- No saving or sharing results
+- No scoring, rankings, or personality labeling
+- No predictive or diagnostic claims
 
-This is **not** an HR system or assessment tool.  
-It is a **thinking aid**.
+This is **not** an HR system or assessment tool. It is a **thinking aid**.
 
----
+## The Framework Behind the Roles
 
-## Framework Behind the Roles
+The five roles are inspired by **Belbin's Team Role framework**, intentionally simplified for clarity and usability — and honest about its limitations.
 
-The five roles are inspired by **Belbin’s Team Role framework**, intentionally simplified for clarity and usability.
+| Role | Description |
+|------|-------------|
+| **Plant** | Creative thinker, idea generator |
+| **Implementer** | Turns ideas into action |
+| **Coordinator** | Aligns people and decisions |
+| **Challenger** | Questions assumptions, surfaces risk |
+| **Completer** | Focuses on accuracy and follow-through |
 
-### Core Roles Used
-
-- **Plant** – Creative thinker, idea generator  
-- **Implementer** – Turns ideas into action  
-- **Coordinator** – Aligns people and decisions  
-- **Challenger** – Questions assumptions, surfaces risk  
-- **Completer** – Focuses on accuracy and follow-through  
-
-Rather than using all nine Belbin roles, this demo focuses on **five core dynamics** to reduce cognitive load and keep insights clear.
-
----
+Rather than using all nine Belbin roles, this demo focuses on five core dynamics to reduce cognitive load and keep insights clear.
 
 ## Why Context Matters
 
-The same team can succeed in one scenario and struggle in another.
+The same team can succeed in one scenario and struggle in another. This demo reinforces a key idea: **performance is often about fit, not talent.** Innovation, execution, and crisis situations demand different balances — not different levels of people.
 
-This demo reinforces a key idea:
+## Who It's For
 
-> **Performance is often about fit, not talent.**
-
-Innovation, execution, and crisis situations demand **different balances**, not different “levels” of people.
-
----
-
-## Intended Audience
-
-- Leaders and managers  
-- HR and People Operations professionals  
-- Product and operations leaders  
-- Anyone curious about organizational design  
-
-No HR background required.
-
----
+- Leaders and managers
+- HR and People Operations professionals
+- Product and operations leaders
+- Anyone curious about organizational design — no HR background required
 
 ## How to Use
 
-1. Open `index.html` in a browser  
-2. Review the instructions at the top of the page  
-3. Select a scenario  
-4. Choose three roles  
-5. Read the feedback  
-6. Reset and try a different balance  
+1. Open `index.html` in a browser
+2. Select a scenario
+3. Choose three roles
+4. Read the feedback
+5. Reset and try a different balance
 
 Repeat until patterns start to emerge.
 
----
+## Running Locally
 
-## Philosophy
+No build process. Just open `index.html` in a browser.
 
-This demo was built from curiosity—not certainty.
+```bash
+git clone https://github.com/SamirSaad786/Team-Dynamics.git
+cd Team-Dynamics
+open index.html
+```
 
-It’s meant to spark reflection and better questions about:
-- Why teams struggle
-- Why strong individuals fail in certain contexts
-- Why “high performers” don’t always perform
+## Built By
 
----
-
-## Future Possibilities (Not Implemented)
-
-- Group facilitation mode  
-- Workshop adaptations  
-- Expanded scenario libraries  
-- AI-assisted reflection prompts  
-
-These are intentionally **out of scope** for now.
+Samir Saad · HR Business Partner · SPHR · MS in Human Resource Development
+[LinkedIn](https://www.linkedin.com/in/saadsamir/) · [GitHub](https://github.com/SamirSaad786)
 
 ---
 
-## 💬 Feedback & Discussion
-
-This project is a conversation starter.
-
-If you’re experimenting with team design—or building tools that support better leadership decisions—I’m always open to thoughtful discussion.
+*Built from curiosity — not certainty. The best frameworks are honest about what they can't explain.*
